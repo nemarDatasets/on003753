@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #2",
+  "description": "This dataset comprises EEG recordings from 25 college-age participants performing a reinforcement learning task with affective feedback. Collected circa 2019 at the University of New Mexico's Clinical Research Center Lab, the data supports investigation of the reward positivity (RewP) component and its sensitivity to affective liking during probabilistic learning. This represents Experiment #2 of a multi-experiment study examining neural correlates of reward processing and emotional valuation. This dataset is a re-publication of OpenNeuro dataset ds003753 (v1.1.0) through NEMAR with identical data and structure.",
+  "methods_description": "EEG data were collected from 25 college-age participants performing a reinforcement learning task with affective feedback. Data collection occurred circa 2019 at the Clinical Research Center Lab (CRCL) at the University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,45 @@
     "Trevor Jackson": {},
     "James F Cavanagh": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003753.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "reward positivity"
+    },
+    {
+      "term": "RewP"
+    },
+    {
+      "term": "affective feedback"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "Reward",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012201"
+    },
+    {
+      "term": "Emotions",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004644"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003753",
       "identifier_type": "URL",
@@ -24,6 +59,16 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003753",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003753.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1007/s13415-021-00927-4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -32,12 +77,12 @@
       "award_number": "1R01MH119382-01"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "11.6 MB (113 files)"
+    "5.0 GB (479 files)"
   ],
   "formats": [
     ".JPG",
@@ -52,35 +97,8 @@
     ".pptx",
     ".set",
     ".tsv",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 25 college-age participants performing a reinforcement learning task with affective feedback. The study investigates the reward positivity (RewP) component and its sensitivity to affective liking during probabilistic learning. Data were collected circa 2019 at the Cognitive Research Core Laboratory at the University of New Mexico.",
-  "methods_description": "EEG data were collected from N=25 college-age participants during a reinforcement learning task incorporating affective feedback. Data collection occurred circa 2019 at the Cognitive Research Core Laboratory (CRCL) at the University of New Mexico. Analytic scripts and an improved version of the task are available from the corresponding author.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "reinforcement learning"
-    },
-    {
-      "term": "reward positivity"
-    },
-    {
-      "term": "affective feedback"
-    },
-    {
-      "term": "Event-Related Potentials"
-    },
-    {
-      "term": "probabilistic learning"
-    },
-    {
-      "term": "affective liking"
-    },
-    {
-      "term": "learning"
-    }
-  ],
-  "source_hash": "0203ad3eb97763dc2e6154f3190e2cf9b8f18a307f1b1830b5a6e32c29211129"
+  "source_hash": "634de152cd6088d6caca6bd5f511b663f9a8cd5ab70dd338234460c16ab08163"
 }

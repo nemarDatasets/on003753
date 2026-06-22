@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003753-blue)](https://doi.org/10.82901/nemar.on003753)
+
 RL task in N=25 college age participants.  Data collected circa 2019 in the CRCL at UNM.  The paper [Brown, D.R., Jackson, T.J. & Cavanagh, J.F.  The Reward Positivity is sensitive to affective liking]  Should be coming out in Cognitive, Affective, & Behavioral Neuroscience.  THIS IS EXPERIMENT #2.  Your best bet for understanding this task  would be to read that paper first.   Note we have since made minor adjustments to the task which really enhance the ability to resolve the RewP.  I also have  analytic scripts for it.  If you are interetsted in running this task, contact me for the new version. - James F Cavanagh 07/02/2021

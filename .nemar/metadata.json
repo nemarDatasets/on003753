@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Probabilistic Learning with Affective Feedback: Exp #2",
-  "description": "This dataset comprises EEG recordings from 25 college-age participants performing a reinforcement learning task with affective feedback. Collected in 2019 at the University of New Mexico's Clinical Research Center Lab, the data supports investigation of the reward positivity (RewP) component and its sensitivity to affective liking during probabilistic learning. This represents Experiment #2 of a study examining neural correlates of reward processing and emotional valuation.",
-  "methods_description": "EEG data were collected from 25 college-age participants during a reinforcement learning task incorporating affective feedback. Data collection occurred circa 2019 at the Clinical Research Center Lab (CRCL) at the University of New Mexico.",
+  "description": "This dataset comprises EEG recordings from 25 college-age participants performing a reinforcement learning task with affective feedback. Collected in 2019 at the University of New Mexico's Clinical Research Center Lab, the data were acquired to investigate the sensitivity of the reward positivity (RewP) component to affective liking during probabilistic learning. This represents Experiment #2 of a study examining neural correlates of reward processing and emotional valuation in decision-making. This is a re-hosted version of OpenNeuro dataset ds003753.",
+  "methods_description": "EEG data were collected from 25 college-age participants performing a reinforcement learning task with affective feedback. Data acquisition occurred circa 2019 at the Clinical Research Center Lab (CRCL) at the University of New Mexico. Participants completed a probabilistic learning task designed to elicit reward positivity (RewP) components in response to affective feedback.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,6 +19,9 @@
       "term": "reinforcement learning"
     },
     {
+      "term": "probabilistic learning"
+    },
+    {
       "term": "reward processing"
     },
     {
@@ -28,17 +31,12 @@
       "term": "affective feedback"
     },
     {
-      "term": "event-related potentials"
+      "term": "decision-making"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003753",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003753",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -50,6 +48,11 @@
     {
       "identifier": "10.1007/s13415-021-00927-4",
       "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003753",
+      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
